@@ -1,6 +1,10 @@
 import React from "react";
 
-export const HeadingLayout = ({ text }) => {
+interface IHeadingLayoutProps {
+  text: string;
+}
+
+export const HeadingLayout: React.FC<IHeadingLayoutProps> = ({ text }) => {
   return (
     <div className="h-2/5 relative">
       <div className="h-full bg-center bg-no-repeat bg-cover bg-[url('/img/hero/h1_hero.png')]"></div>
