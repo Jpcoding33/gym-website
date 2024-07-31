@@ -45,7 +45,9 @@ export const TeamSection = () => {
           ref={(node) => setRef(node, 0)}
           className="col-span-12 sm:col-span-6 lg:col-span-4 flex flex-col justify-center items-center"
         >
-          <img className="w-full" src={image1}></img>
+          <div className="w-full overflow-hidden flex justify-center">
+            <img className="transform transition-transform duration-1000 ease-in-out hover:scale-125" src={image1}></img>
+          </div>
           <div className="w-10/12 text-center">
             <h4 className="text-2xl font-semibold mt-5">BODY BUILDING</h4>
             <p className="text-md mt-2 mb-5">
@@ -58,7 +60,9 @@ export const TeamSection = () => {
           ref={(node) => setRef(node, 1)}
           className="col-span-12 sm:col-span-6 lg:col-span-4 flex flex-col justify-center items-center"
         >
-          <img className="w-full" src={image2}></img>
+          <div className="w-full overflow-hidden flex justify-center">
+            <img className="transform transition-transform duration-1000 ease-in-out hover:scale-125" src={image2}></img>
+          </div>
           <div className="w-10/12 text-center">
             <h4 className="text-2xl font-semibold mt-5">MUSCLE GAIN</h4>
             <p className="text-md mt-2 mb-5">
@@ -71,7 +75,9 @@ export const TeamSection = () => {
           ref={(node) => setRef(node, 2)}
           className="col-span-12 sm:col-span-6 lg:col-span-4 flex flex-col justify-center items-center"
         >
-          <img className="w-full" src={image3}></img>
+          <div className="w-full overflow-hidden flex justify-center">
+            <img className="transform transition-transform duration-1000 ease-in-out hover:scale-125" src={image3}></img>
+          </div>
           <div className="w-10/12 text-center">
             <h4 className="text-2xl font-semibold mt-5">WEIGHT LOSS</h4>
             <p className="text-md mt-2 mb-5">
